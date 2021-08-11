@@ -53,14 +53,10 @@ https://blog.sprov.xyz/2019/02/09/sprov-ui/
 > 请务必使用 root 用户运行！
 
 ```
-wget -O /usr/bin/sprov-ui -N --no-check-certificate https://download.o2oyc.com/seedc/sprov-ui/blob/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
+wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/xiaoxinboss/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
 
 ```
-或
-```
-wget -O /usr/bin/sprov-ui -N --no-check-certificate https://raw.githubusercontent.com/seedc/sprov-ui/master/install.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
 
-```
 # 常见问题
 
 ### sprov-ui 启动失败：Address already in use
